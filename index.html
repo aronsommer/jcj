@@ -58,12 +58,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/51f0e548aefb64962136f871325b5658.loader.js";
+      var loaderUrl = buildUrl + "/967a9ebcac0686224ae6cec4184592bb.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/49c2f28c3c8246d2a34305051ff2c40d.data",
+        dataUrl: buildUrl + "/3bfdc4d220cec3cdf3edbec807a151c6.data",
         frameworkUrl: buildUrl + "/54efe36dfe6649e18a7e5d221a88f15b.framework.js",
-        codeUrl: buildUrl + "/09a89c8abbd3455df1d4e39bafac84af.wasm",
+        codeUrl: buildUrl + "/6f3f85795af1d8f119b02604ad5ef78e.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Aron Sommer",
         productName: "Jet Car Jump",
@@ -105,8 +105,8 @@
     // requestFullscreen() currently not working on iOS
     if (IsAndroid()) {
       var fullscreenDiv = document.createElement('fullscreen-div');
-      fullscreenDiv.style.cssText = 'position: fixed; width: 100%; height: 100%; line-height: 100%; color: white; background-color: blue; text-align: center; z-index: 10000;';
-      fullscreenDiv.innerHTML += '<br>TAP TO GO FULLSCREEN';
+      fullscreenDiv.style.cssText = 'display: flex; justify-content: center; align-items: center; position: fixed; top: 25%; left: 0; width: 100%; height: 50%; color: white; background-color: blue; font-family: sans-serif; z-index: 10000;';
+      fullscreenDiv.innerHTML += 'TAP FOR FULLSCREEN';
       fullscreenDiv.onclick = function () {
         canvas.requestFullscreen();
         // screen.orientation.lock("landscape");
