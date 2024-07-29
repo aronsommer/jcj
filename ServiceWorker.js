@@ -1,9 +1,9 @@
 const cacheName = "Aron Sommer-Jet Car Jump-1.0";
 const contentToCache = [
-    "Build/5283cfe01ad14af8efa98bf7649a48cb.loader.js",
+    "Build/6edc6c52d3d5fd0a4b7bc6332203cd1b.loader.js",
     "Build/0db7ba5a1f13be59b8e31ef9c706b3f6.framework.js",
-    "Build/46444d7516c3cd30b15b2b09db066105.data",
-    "Build/4ee0a68da543ca8bc8ca12a9efc05807.wasm",
+    "Build/e738e254c356653781c3bca11e2b7635.data",
+    "Build/19e44b436634f460c34a30f615994398.wasm",
     "TemplateData/style.css"
 
 ];
